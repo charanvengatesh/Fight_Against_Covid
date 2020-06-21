@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fight Against Covid</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="sketch.js"></script>
+    <script src="bad.js"></script>
+    <script src="player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  </head>
+  <body style="background-color: #e26b81;">
+    <nav>
+      <div class="nav-content">
+        <!-- logo -->
+        <a href="index.html" class="logo">
+          <svg width="18" height="44" display="block">
+            <circle
+              cx="9"
+              cy="22"
+              r="8"
+              stroke="white"
+              stroke-width="1.5"
+              fill="white"
+            />
+          </svg>
+        </a>
+
+        <!-- naviagtion links -->
+        <div class="nav-links">
+          <a href="facts.html">Facts</a>
+          <a href="game.html">Game</a>
+          <a href="about.html">About</a>
+          <a href="#">App</a>
+        </div>
+      </div>
+    </nav>
+    <h3 class="top-bar" style="background-color: antiquewhite;">
+      <span style="max-width: 400px;"> 
+      This is an interactive game that uses the intellect of a user in order to achieve the maximum amount of points. This game
+      is created using JavaScript. The main objective is to stay
+      away from the other circles, that represent carriers of the Covid-19 virus. The overall goal of this game is to show the purpose of
+      why social distancing matters as you will become a carrier of the Covid-19 virus. 
+    </span>
+    </h3>
+    <div id="score-container">
+      <button onclick="start()" id="score-button">Start</button>
+      <p id="scoreP">Score will be shown here</p>
+    </div>
+  </body>
+</html>
