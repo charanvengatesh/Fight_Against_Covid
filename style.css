@@ -1,0 +1,136 @@
+/*
+Authors: Atharva Gupta and Charan Vengatesh
+*/
+
+* {
+    scroll-behavior: smooth;
+    
+}
+ body {
+   margin: 0;
+   background-color: #EA526F;
+   font-family: 'Dosis',
+   sans-serif;
+ }
+ 
+ html::-webkit-scrollbar {
+    display: none;
+}
+
+ nav{
+   background-color: #070600;
+ }
+
+ .nav-content {
+   max-width: 400px;
+   margin: 0 auto;
+   background-color: #070600;
+   padding: 0 20px;
+   display: flex;
+   justify-content: space-between;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .nav-content a {
+    display: block;
+    font-size: 14px;
+    line-height: 44px;
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #ffffff;
+  }
+  
+  .nav-content a:hover,
+  .nav-icon:hover,
+  .search-icon:hover {
+    opacity: 0.7;
+  }
+  
+  .nav-links {
+    width: 80%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+#green-bar {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#blue-bar {
+  background-color: #5299ea;
+  padding: 10px;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+
+#covid-pic{
+  width: -webkit-fill-available;
+  filter: brightness(50%);
+  margin: 0;
+}
+
+.insta-icon{
+  background-color: #EA526F;
+  color: #F7F7FF;
+}
+.github-icon{
+  background-color: #ddd;
+  color: #000000;
+}
+
+#social-media-icons{
+  display: flex;
+  position: absolute;
+  width: -webkit-fill-available;
+  bottom: 0;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  background-color: #070600;
+}
+
+#about-text{
+  padding: 40px;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
