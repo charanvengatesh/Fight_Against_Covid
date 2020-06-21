@@ -22,6 +22,7 @@ class Bad {
         setup()
         document.getElementById("scoreP").innerHTML = "Score: " + points;
         started = false;
+        points = 0;
       }
     }
 

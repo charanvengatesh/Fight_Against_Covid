@@ -6,6 +6,7 @@ let res = 25;
 let bads = [];
 let points = 0;
 function setup() {
+  // points = 0;
   background(75, 150, 50);
   createCanvas(800, 500);
   ball = new Ball();
