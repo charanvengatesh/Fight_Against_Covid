@@ -55,11 +55,10 @@ nav {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #EA526F;
+  background-color: #FFFCE8;
 }
 
 #s {
-  background-color: #EA526F;
   padding: 5px 20px;
 }
 
@@ -80,22 +79,13 @@ nav {
 }
 
 .container:hover input~.checkmark {
-  background-color: #5299ea;
+  background-color: #323031;
 }
 
 .container input:checked~.checkmark {
-  background-color: #000;
+  background-color: #DB3A34;
 }
 
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.container input:checked~.checkmark:after {
-  display: block;
-}
 
 #style-check {
   background-color: #C0E8F9;
@@ -107,17 +97,7 @@ nav {
   margin-bottom: 10px;
 }
 
-.container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
+
 
 .nav-content {
   max-width: 400px;
@@ -210,8 +190,8 @@ nav {
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
-  animation: typing 3.5s steps(34, end),
-    blink-caret .75s step-end infinite;
+  animation: typing 3s steps(34, end),
+    blink-caret 1s step-end infinite;
 }
 
 @keyframes typing {
@@ -252,7 +232,6 @@ nav {
   font-size: 25px;
   padding: 0 40px;
 }
-
 
 #defaultCanvas0 {
   margin-top: 20px;
