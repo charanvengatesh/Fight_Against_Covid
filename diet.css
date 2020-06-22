@@ -9,7 +9,7 @@ Authors: Atharva Gupta and Charan Vengatesh
 
 body {
   margin: 0;
-  background-color: #EA526F;
+  background-color: #F5CAC3;
   font-family: 'Dosis',
     sans-serif;
 }
@@ -88,9 +88,7 @@ nav {
 
 
 #style-check {
-  background-color: #C0E8F9;
   padding: 5px 20px;
-  text-shadow: bisque;
   font-size: 50px;
   position: relative;
   padding-bottom: 10px;
